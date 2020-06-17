@@ -27,3 +27,10 @@ NodeJS &amp; ExpressJS test
 | GET `localhost:3000/cards` |	JSON-список всех карточек |
 | GET `localhost:3000/users/8340d0ec33270a25f2413b69` |	JSON-пользователя с переданным после /users идентификатором. Если такого нет, API должно возвращать 404 статус ответа и JSON:`{ "message": "Нет пользователя с таким id" }` |
 | Несуществующий адрес |	`{ "message": "Запрашиваемый ресурс не найден" }` |
+
+----
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
