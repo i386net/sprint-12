@@ -30,7 +30,7 @@ NodeJS &amp; ExpressJS test
 
 ----
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| ЗАПРОС | ОТВЕТ | 
+| :---         |     :---       |  
+| git status   | git status     |
+| git diff     | git diff       | 
