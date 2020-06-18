@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
