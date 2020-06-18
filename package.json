@@ -5,7 +5,12 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i386net/sprint-12.git"
   },
   "keywords": [
     "nodejs",
@@ -13,6 +18,10 @@
   ],
   "author": "DK",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i386net/sprint-12/issues"
+  },
+  "homepage": "https://github.com/i386net/sprint-12#readme",
   "devDependencies": {
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
