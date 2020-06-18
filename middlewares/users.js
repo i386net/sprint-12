@@ -7,7 +7,7 @@ const users = ({ ...options }) => {
         return options.res.send(JSON.parse(data));
       }
       const parsedData = JSON.parse(data);
-      // eslint-disable-next-line no-underscore-dangle
+
       const userId = (id) => parsedData.find((user) => id === user._id);
       const user = userId(options.req.params.id);
       if (user) {
